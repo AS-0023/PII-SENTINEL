@@ -1,2 +1,35 @@
-# PII-SENTINEL
-PII Sentinel is a specialized web tool that detects and classifies sensitive Indian identifiers from documents using a hybrid Regex + NLP approach. It supports OCR for scanned files, generates detailed reports, and helps ensure compliance with data privacy laws.
+# PII Sentinel Frontend
+
+React frontend for the PII Sentinel application.
+
+## Installation
+
+```bash
+npm install
+```
+
+## Configuration
+
+Create a `.env` file in the frontend directory (optional):
+
+```
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_KEY=your-api-key
+```
+
+## Running
+
+```bash
+npm start
+```
+
+The app will open at http://localhost:3000
+
+## Building for Production
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `build` folder.
+
